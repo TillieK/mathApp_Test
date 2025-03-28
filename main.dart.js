@@ -74716,7 +74716,7 @@ return A.ot(s,A.eo(A.b([A.fE(new A.bO(new A.af(10,10,10,10),A.bB("No numbers ent
 r=A.bB("Double tap on a number to edit.",m,m,m,m,A.bs(m,m,B.l,m,m,m,m,m,m,m,m,40,m,m,B.x,m,m,!0,m,m,m,m,m,m,m,m),B.aI,m)
 q=t.w
 p=A.bh(a,m,q).w
-p=A.fE(A.de(m,A.aoU(new A.adw(n),n.a.c.length,!0),B.t,B.cJ,m,m,m,m,m),p.a.b*0.7,m)
+p=A.fE(A.de(m,A.aoU(new A.adw(n),n.a.c.length,!0),B.t,B.cJ,m,m,m,m,m),p.a.b*0.6,m)
 q=A.bh(a,m,q).w
 o=A.dK(10)
 return A.ot(s,A.aq_(A.eo(A.b([new A.bO(new A.af(5,5,5,5),r,m),p,A.bk(!0,A.h0(m,A.de(m,A.em(A.bB(k,m,m,m,m,A.bs(m,m,B.j,m,m,m,m,m,m,m,m,35,m,m,B.x,m,m,!0,m,m,m,m,m,m,m,m),m,m),m,m),B.t,m,new A.cy(B.fC,m,m,o,m,m,B.aa),q.a.b*0.1,new A.af(10,10,10,10),m,m),B.T,!1,m,m,m,m,m,m,m,m,m,m,m,m,new A.adx(n,a),m,m,m),!1,m,m,!0,!1,m,m,m,"Double tap to navigate to the Answer Input Page",k,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m)],t.F),B.ab,B.a4,B.fA)))}}
