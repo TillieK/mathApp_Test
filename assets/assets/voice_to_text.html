@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voice to Text</title>
+  </head>
+  <body>
+    <script>
+      const recognition = new (window.SpeechRecognition ||
+        window.webkitSpeechRecognition ||
+        window.mozSpeechRecognition ||
+        window.msSpeechRecognition)();
+      recognition.lang = "en-US";
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        let numbers = transcript.replace(/[^0-9+-*/().]/g, "");
+
+        // Send the result back to Flutter
+        window.flutter_inappwebview.callHandler("onResult", numbers);
+      };
+
+      function startListening() {
+        recognition.start();
+      }
+    </script>
+  </body>
+</html>
